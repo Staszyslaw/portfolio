@@ -140,7 +140,7 @@
 
   .github {
     &:before {
-      background: url(github-mark.svg);
+      background: url('/github-mark.svg');
       background-size: cover;
       width: 20px;
       height: 20px;
