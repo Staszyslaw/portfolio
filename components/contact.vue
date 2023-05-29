@@ -8,9 +8,9 @@
     <div class="contact-links">
       <a href="mailto:stanislaw@czajka.pl">stanislaw@czajka.pl</a>
       <div class="spacer" />
-      <a href="https://www.linkedin.com/in/stanis%C5%82aw-czajka-46342a1b6/">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/stanis%C5%82aw-czajka-46342a1b6/" target="_blank">LinkedIn</a>
       <div class="spacer" />
-      <a href="https://github.com/Staszyslaw">GitHub</a>
+      <a href="https://github.com/Staszyslaw" target="_blank">GitHub</a>
     </div>
 
     <div class="copyright">

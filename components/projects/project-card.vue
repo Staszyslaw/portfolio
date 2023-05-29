@@ -28,8 +28,8 @@
         </li>
       </ul>
       <div class="project-card-link-container">
-        <a class="project-card-link url" :href=this.links.url>Project page</a>
-        <a class="project-card-link github" :href=this.links.github>View source</a>
+        <a class="project-card-link url" target="_blank" :href=this.links.url>Project page</a>
+        <a class="project-card-link github" target="_blank" :href=this.links.github>View source</a>
       </div>
     </div>
   </div>
