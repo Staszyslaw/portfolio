@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Navbar from "~/Components/navbar.vue";
-import Intro from "~/Components/intro.vue";
-import Code from "~/Components/code.vue";
-import Projects from "~/Components/Projects/Projects.vue";
-import Contact from "~/Components/Contact.vue";
+import Navbar from "~/components/navbar.vue";
+import Intro from "~/components/intro.vue";
+import Code from "~/components/code.vue";
+import Projects from "~/components/projects/projects.vue";
+import Contact from "~/components/contact.vue";
 </script>
 
 <template>

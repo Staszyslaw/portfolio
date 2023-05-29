@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import {default as MainComponent} from "./components/main";
+</script>
+
 <template>
-  <Main />
+  <MainComponent />
 </template>
 
 <style>

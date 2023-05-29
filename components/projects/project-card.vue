@@ -14,11 +14,13 @@
 </script>
 
 <template>
-  <div class="project-card">
-    <img :src=this.image alt="project image" />
+  <div class="project-card" v-if="this">
+    <img
+        :src="this.image"
+        alt="project image" />
     <div class="project-card-image-background"></div>
     <div class="project-card-content">
-      <div class="project-card-title">{{this.title}}</div>
+      <div class="project-card-title">{{this ? this.title : ''}}</div>
       <div class="project-card-description">{{this.description}}</div>
       <ul class="project-card-tech-list">
         <li class="project-card-tech" v-for="tech in this.technologies">

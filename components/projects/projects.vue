@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import ProjectCard from "~/Components/Projects/ProjectCard.vue";
-import {ProjectCardProps} from "~/Components/Projects/ProjectCardProps";
+import ProjectCard from "~/components/projects/project-card.vue";
+import {ProjectCardProps} from "~/components/projects/project-card-props";
 
 const cards: ProjectCardProps[] = [
   {
     title: "Portfolio",
     description: "Page you are currently looking at. Built using Nuxt / Vue. Project cards are generated from JSON for easier modification.",
-    technologies: ["HTML", "CSS", "Vue", "TypeScript", "JavaScript"],
+    technologies: ["HTML", "CSS", "Vue", "TypeScript", "JavaScript", "AWS"],
     image: 'portfolio.png',
     links: {
       url: "https://stanislawczajka.pl",
