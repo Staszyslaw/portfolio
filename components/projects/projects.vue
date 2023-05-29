@@ -6,7 +6,7 @@ const cards: ProjectCardProps[] = [
   {
     title: "Portfolio",
     description: "Page you are currently looking at. Built using Nuxt / Vue. Project cards are generated from JSON for easier modification.",
-    technologies: ["HTML", "CSS", "Vue", "TypeScript", "JavaScript", "AWS"],
+    technologies: ["HTML", "CSS", "Vue", "TypeScript", "JavaScript", "Vercel"],
     image: 'portfolio.png',
     links: {
       url: "https://stanislawczajka.pl",
